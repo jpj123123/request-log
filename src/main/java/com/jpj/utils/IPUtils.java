@@ -1,16 +1,12 @@
 package com.jpj.utils;
 
 import org.apache.commons.lang3.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import javax.servlet.http.HttpServletRequest;
 
 /**
  * 更具request获取IP地址
  */
 public class IPUtils {
-  private static Logger logger = LoggerFactory.getLogger(IPUtils.class);
 
   /**
    * 获取Ip地址
